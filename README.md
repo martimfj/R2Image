@@ -1,6 +1,6 @@
 # R2: Reserve a Room - Image
 
-Este é o projeto final da disciplina Computação em Nuvem (2018.2) do curso de Engenharia da Computação do Insper, que consiste em uma imagem Docker que cria conteiners para [aplicação Reserve Room](https://github.com/martimfj/R2App), implementando ainda o HAProxy como load balancer. Essa imagem cria um conteiner para o bando de dados (MongoDB), um conteiner para o Load Balancer (HAProxy) e cinco conteiners para a aplicação feita em Flask.
+Este é o projeto final da disciplina Computação em Nuvem (2018.2) do curso de Engenharia da Computação do Insper, que consiste em uma imagem Docker que cria conteiners para [aplicação Reserve Room](https://github.com/martimfj/R2App), implementando ainda o HAProxy como load balancer. Essa imagem cria um conteiner para o bando de dados (MongoDB), um conteiner para o Load Balancer (HAProxy) e cinco conteiners para a aplicação feita em Flask. O DockerHub do imagem é: https://hub.docker.com/r/martimfj/cloud-reserveroom/.
 
 ![Diagrama](diagrama.png)
 
