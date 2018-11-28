@@ -1,0 +1,16 @@
+reserveroom:
+  build: .
+  links:
+    - mongo
+mongo:
+  image: mongo:latest
+  ports:
+    - 27017:27017
+loadbalancer:
+  image: 'dockercloud/haproxy:latest'
+  links:
+    - reserveroom
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+  ports:
+    - 80:80

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Clean system
+docker system prune -a --force
+sudo apt remove --yes docker docker-engine docker.io
+sudo rm --yes /usr/local/bin/docker-compose

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Run conteiner
+docker-compose build
+docker-compose up -d --scale reserveroom=5
